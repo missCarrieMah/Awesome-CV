@@ -197,7 +197,7 @@ ItalicFont=*Italic,
 \newcommand*{\headernamefont}{\fontsize{32pt}{1em}\roboto\bfseries}
 \newcommand*{\headeraddressfont}{\fontsize{11pt}{1em}\sourcesans}
 \newcommand*{\headersocialfont}{\fontsize{9pt}{1em}\sourcesans}
-\newcommand*{\headerquotefont}{\fontsize{11pt}{1em}\robotocondensed}
+\newcommand*{\headerquotefont}{\fontsize{9pt}{1em}\sourcesans}
 \newcommand*{\footerfont}{\fontsize{10pt}{1em}\sourcesans\scshape}
 \newcommand*{\sectionfont}{\fontsize{16pt}{1em}\sourcesans\bfseries}
 \newcommand*{\subsectionfont}{\fontsize{12pt}{1em}\sourcesans\scshape}
@@ -234,7 +234,7 @@ ItalicFont=*Italic,
 \newcommand*{\headernamestyle}[1]{{\headernamefont\color{darkgray} #1}}
 \newcommand*{\headeraddressstyle}[1]{{\headeraddressfont\color{awesome-secondary} #1}}
 \newcommand*{\headersocialstyle}[1]{{\headersocialfont\color{darkgray} #1}}
-\newcommand*{\headerquotestyle}[1]{{\headerquotefont\color{awesome} #1}}
+\newcommand*{\headerquotestyle}[1]{{\headerquotefont\color{darkgray} #1}}
 \newcommand*{\footerstyle}[1]{{\footerfont\color{lightgray} #1}}
 \newcommand*{\sectionstyle}[1]{{\sectionfont\color{awesome}\@sectioncolor #1}}
 \newcommand*{\subsectionstyle}[1]{{\subsectionfont\textcolor{awesome-text}{#1}}}
@@ -353,13 +353,14 @@ ItalicFont=*Italic,
       \ifthenelse{\isundefined{\@homepage}}
         {}{\href{http://\@homepage}{\faHome\ \@homepage}}
       \quad\textbar\quad 
-      \ifthenelse{\isundefined{\@github}}
-        {}{\href{http://github.com/\@github}{\faGithubSquare\ \@github}}
-      \quad\textbar\quad 
       \ifthenelse{\isundefined{\@linkedin}}
         {}{\href{http://www.linkedin.com/in/\@linkedin}{\faLinkedinSquare\ \@linkedin}}
     } \\
-    \vspace{3mm}
+    \vspace{1mm}
+    \headerquotestyle{
+    	\ifthenelse{\isundefined{\@quote}}{}{\@quote}
+    } \\
+    \vspace{2mm}
   \end{center}
 }
 
