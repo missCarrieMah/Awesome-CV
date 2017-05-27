@@ -1,13 +1,13 @@
 Awesome CV
 ==========
 
-This is a LaTeX CV template written by [posquit0](https://github.com/posquit0/Awesome-CV). I have modified it to fit my needs. 
+This is a LaTeX CV template written by [posquit0](https://github.com/posquit0/Awesome-CV). Mdified for my needs. 
 
 ## Carrie's Resume
-PDF version of my [resume](https://github.com/missCarrieMah/Awesome-CV/blob/master/examples/mah_carrie_resume/resume.pdf)
+PDF version of my [resume](https://github.com/missCarrieMah/Awesome-CV/blob/master/examples/mah_carrie_resume/mah-carrie-resume.pdf)
 
-![alt tag](https://github.com/missCarrieMah/Awesome-CV/blob/master/examples/mah_carrie_resume2.png)
-![alt tag](https://github.com/missCarrieMah/Awesome-CV/blob/master/examples/mah_carrie_resume1.png)
+![alt tag](https://github.com/missCarrieMah/Awesome-CV/blob/master/examples/mahcarrie_resume1.png)
+![alt tag](https://github.com/missCarrieMah/Awesome-CV/blob/master/examples/mahcarrie_resume2.png)
 
 ## Modifications
 * Created a skill section
@@ -16,8 +16,6 @@ PDF version of my [resume](https://github.com/missCarrieMah/Awesome-CV/blob/mast
 ## Running on Mac
 If you open this [font folder](https://github.com/missCarrieMah/Awesome-CV/blob/cm-resume/Fonts.zip) simply install the fonts and you should be able to run it.
 
-## TODO
-Create a cover letter
 
 Original Documentation
 ==========
@@ -26,10 +24,6 @@ This is the class for writing CV(Curriculum Vitae) in LaTeX. It basically provid
 
 ## Preview
 You can see [PDF](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume.pdf)
-
-![alt tag](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-0.png)
-![alt tag](https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/resume-1.png)
-
 
 ## How to Use
 ### Requirements

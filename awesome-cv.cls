@@ -74,9 +74,9 @@
   pdfauthor={},
   pdfsubject={},
   pdfkeywords={},
-  colorlinks=false,
-  allbordercolors=white
+  colorlinks=false
 }
+
 
 
 %-------------------------------------------------------------------------------
