@@ -4,10 +4,7 @@ Awesome CV
 This is a LaTeX CV template written by [posquit0](https://github.com/posquit0/Awesome-CV). Mdified for my needs. 
 
 ## Carrie's Resume
-PDF version of my [resume](https://github.com/missCarrieMah/Awesome-CV/blob/master/examples/mah_carrie_resume/mah-carrie-resume.pdf)
-
-![alt tag](https://github.com/missCarrieMah/Awesome-CV/blob/master/examples/mahcarrie_resume1.png)
-![alt tag](https://github.com/missCarrieMah/Awesome-CV/blob/master/examples/mahcarrie_resume2.png)
+Note this is my old resume, please see my new resume on my [website](http://www.misscarriemah.ca)
 
 ## Modifications
 * Created a skill section
